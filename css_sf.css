@@ -1,0 +1,182 @@
+body {
+  background-color: #242422;
+}
+
+#intro {
+  display: flex;
+  justify-content:center;
+  padding-top: 25px;
+}
+
+#top_logo {
+  width: auto;
+  height: 300px;
+  margin-left:auto;
+  margin-right: auto;
+  background-size: contain;
+  background-image: url(billeder/overskrift_logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#topnav {
+  display: flex;
+  justify-content: left;
+  height: 40px;
+  width: auto;
+  background-color: #BB4090;
+}
+/* baggrund topnavigation */
+
+#topnav a {
+float: left;
+color: #EECBD3;
+text-align: center;
+padding: 10px 20px;
+text-decoration: none;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: bold;
+width: auto;
+}
+
+#topnav a:hover {
+  background-color: #EECBD3;
+  color: #BB4090;
+}
+
+#topnav a:active {
+  background-color: #242422;
+  color: #242422;
+}
+/* top navigation styling*/
+
+.overskrift {
+  color: #EECBD3;
+  font-family: roboto,sans-serif;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+
+}
+
+#profil_billede {
+  width: auto;
+  height: 1000px;
+  margin-left:auto;
+  margin-right: auto;
+  background-size: contain;
+  background-image: url(billeder/stf1.png);
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#main_portfolio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: auto;
+  height: 300px;
+  padding: 25px 50px 50px 50px;
+}
+
+#logoer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: auto;
+  padding: 25px 50px 50px 50px;
+}
+
+.grafisk {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: auto;
+  padding: 50px 50px 50px 50px;
+}
+
+.undertekst {
+  color: #EECBD3;
+  font-family: roboto,sans-serif;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#bil {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: auto;
+  padding: 10px 50px 50px 50px;
+}
+
+#digitalillu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: auto;
+  padding: 10px 50px 50px 50px;
+}
+
+#billede {
+  float: right;
+  justify-content: space-between;
+  padding-right: 200px;
+  padding-top: 25px;
+}
+
+.tekst {
+  color: #F6F6F6;
+  font-size: 20px;
+  font-family: roboto,sans-serif;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+#anima {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  padding: 25px 25px 25px 25px;
+}
+
+#stf3 {
+  width: auto;
+  height: 300px;
+  margin-left:auto;
+  margin-right: auto;
+  background-size: contain;
+  background-image: url(billeder/stf3.png);
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+/* footer styling*/
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: auto;
+  background-color: #BB4090;
+  color: #EECBD3;
+  font-family: roboto,sans-serif;
+  font-weight: 300;
+}
