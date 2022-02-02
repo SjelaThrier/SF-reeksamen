@@ -27,6 +27,7 @@ body {
   background-image: url(billeder/overskrift_logo.png);
   background-repeat: no-repeat;
   background-position: left;
+	padding-bottom: 25px;
 }
 
 #topnav {
@@ -155,11 +156,8 @@ figure::before {
   opacity: 0;
 }
 figure:hover{
-  animation: bloom ease-in-out .5s forwards;
-}
-figure:hover::before {
-  animation: circle .5s;
-}
+  animation: bloom ease-in-out 0.5s forwards;
+  }
 @keyframes bloom {
   0% {
     filter: grayscale(.8);
